@@ -1,6 +1,7 @@
 import React from 'react';
 import {View} from 'react-native';
 import Card from './components/card';
+import Button from './components/button';
 import {ManageThemeProvider} from './hooks/theme';
 import {
   RootSafeAreaView,
@@ -28,7 +29,9 @@ const App = () => {
               Exemplo de dark mode sem uso de lib de terceiros.
             </TextView>
           </TextContainer>
-          <SwitchComponent />
+
+          <Button style={{marginTop: 10}}>Botão de teste</Button>
+          <SwitchComponent style={{marginTop: 20}} />
         </RootView>
       </RootSafeAreaView>
     </ManageThemeProvider>
