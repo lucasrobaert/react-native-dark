@@ -1,11 +1,11 @@
 export const lightTheme = {
   theme: {
-    background: '#fcfdff',
+    background: '#eeeeee',
     rootBackground: '#fcfdff',
     cardBackground: '#ffffff',
     cardBorder: '#ede8df',
-    text: '#000000',
-    subText: '#212121',
+    text: '#527318',
+    subText: '#2a7886',
     border: '#ede8df',
     shadowEffect: '#dfdccd',
     circle: '#ffffff',
@@ -15,15 +15,15 @@ export const lightTheme = {
 
 export const darkTheme = {
   theme: {
-    background: '#000000',
-    rootBackground: '#000000',
-    cardBackground: '#121212',
+    background: '#393e46',
+    rootBackground: '#393e46',
+    cardBackground: '#232931',
     cardBorder: 'transparent',
-    text: '#ffffff',
+    text: '#4ecca3',
     horizontalBorder: '#545151',
-    subText: '#9e9e9e',
+    subText: '#8ac6d1',
     shadowEffect: 'transparent',
-    circle: '#000000',
+    circle: '#232931',
     border: 'transparent',
   },
 };
